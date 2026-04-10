@@ -1,3 +1,7 @@
+# Fulver Governance Model
+
+The semantic version specification outlines incompatible, functional, and security related changes. The full version specification is from a developers perspective and includes the ability to append a last version number for non-semantically related tasks coders step into each day. The application itself may not be changed, however, critical dev-ops files or tools and more may be changed and should be referenced within the developer changelog with a unique version number known as the EXTRA version number. Since semantic version specification is sufficient for application spec files and skew notation for the application itself, full version specification is simply a amendum for the use of development operations tools and other extras that change the overall flow or necessities of the repositories codebase.
+
 # Semver Governance Model
 
 The "RFC" (request for comments) process is intended to provide a consistent and controlled path for changes to the SemVer specification, so that all stakeholders can be confident about the direction the spec is evolving in.

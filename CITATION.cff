@@ -1,13 +1,40 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
 cff-version: 1.2.0
-message: "If you reference the Semantic Versioning Specification in your work, please use this metadata."
-abstract: '"Semantic Versioning" or "SemVer" contain a set of rules and requirements that dictate how version numbers are assigned and incremented.'
+title: Full Versioning Specification
+message: >-
+  If you reference the Full Versioning Specification in your
+  work, please use this metadata.
+type: software
 authors:
-  - family-names: Preston-Werner
-    given-names: Tom
-  - name: The SemVer Team
-title: Semantic Versioning Specification
-version: 2.0.0
-date-released: 2013-06-18
-url: "https://semver.org"
-repository-code: "https://github.com/semver/semver"
-license: "CC-BY-3.0"
+  - given-names: Tom
+    family-names: Preston-Werner
+    affiliation: Original Author of SemVer
+repository-code: 'https://github.com/hogjamaus/fulver'
+abstract: >-
+  "Full Versioning" or "FullVer" contain a set of rules and
+  requirements that dictate how version numbers are assigned
+  and incremented.
+keywords:
+  - semantic versioning
+  - full versioning
+  - specification
+  - developer tool
+license: CC-BY-3.0
+version: 1.0.0.0-beta
+date-released: '2026-04-10'
+contact:
+  - name: FullVer Author Contact
+    email: hogjamaus@gmail.com
+    family-names: Hogan
+    given-names: Austin
+references:
+  - title: Semantic Versioning Specification
+    type: specification
+    message: 'If you use this software, please cite it using these metadata.'
+    version: 2.0.0
+    date-released: 2013-06-18T00:00:00.000Z
+    url: 'https://semver.org'
+    repository-code: 'https://github.com/semver/semver'
+    license: CC-BY-3.0

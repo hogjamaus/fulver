@@ -1,19 +1,21 @@
 {
-  "name": "semver-spec",
-  "version": "2.0.0",
-  "description": "Semantic Versioning Specification",
-  "main": "semver.md",
+  "name": "fulver-spec",
+  "version": "1.0.0-beta",
+  "description": "Full Versioning Specification",
+  "main": "fulver.md",
   "scripts": {
-    "lint": "remark -qf semver.md",
+    "lint": "remark -qf fulver.md",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/semver/semver.git"
+    "url": "git+https://github.com/hogjamaus/fulver.git"
   },
   "keywords": [
-    "semver",
+    "fullver",
+    "full versioning",
     "semantic",
+    "semantic versioning",
     "versioning",
     "specification",
     "spec"
@@ -21,9 +23,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/semver/semver/issues"
+    "url": "https://github.com/hogjamaus/fulver/issues"
   },
-  "homepage": "https://github.com/semver/semver#readme",
+  "homepage": "https://github.com/hogjamaus/fulver#readme",
   "devDependencies": {
     "remark-cli": "^11.0.0",
     "remark-frontmatter": "^2.0.0",
