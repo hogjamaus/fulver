@@ -47,7 +47,7 @@ if match:
 	if match.group(5):
 		semver += f"-{match.group(5)}"
 		fulver += f"-{match.group(5)}"
-		print("Pre-release:", match.group(5))
+		print("Release Phase:", match.group(5))
 	if match.group(6):
 		semver += f"+{match.group(6)}"
 		fulver += f"+{match.group(6)}"
